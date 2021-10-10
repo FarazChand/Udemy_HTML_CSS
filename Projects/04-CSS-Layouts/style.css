@@ -1,6 +1,7 @@
 * {
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -21,7 +22,7 @@ body {
 }
 
 .main-header {
-   background-color: #f7f7f7;
+   background-color: #f77e7e;
    /* padding: 20px;
    padding-left: 40px;
    padding-right: 40px; */
@@ -46,10 +47,7 @@ aside {
    background-color: #f7f7f7;
    border-top: 5px solid #1098ad;
    border-bottom: 5px solid #1098ad;
-   /* padding-top: 50px;
-   padding-bottom: 50px; */
-   padding: 50px 0;
-   width: 500px;
+   padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -79,9 +77,9 @@ h3 {
 
 h4 {
    font-size: 20px;
-
    text-transform: uppercase;
    text-align: center;
+   margin-bottom: 30px;
 }
 
 p {
@@ -131,6 +129,7 @@ li:last-child {
 
 .related {
    list-style: none;
+   margin: 0;
 }
 
 /* body {
@@ -217,9 +216,9 @@ h1::first-letter {
    margin-right: 5px;
 }
 
-h3 + p::first-line {
+/* h3 + p::first-line {
    color: orangered;
-}
+} */
 
 h2 {
    position: relative;
