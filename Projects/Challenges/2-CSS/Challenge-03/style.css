@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;  
+}
+
+/*PRODUCT */
+.product {
+    border: 4px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.item-name {
+  text-transform: uppercase;
+  font-size: 22px;
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+}
+
+.product-image {
+  width: 28%;
+  height: auto;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+}
+.shipping {
+  text-transform: uppercase;
+  font-size: 12px; 
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sale-tag {
+  background-color: #ec2f2f;
+  color: white;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  disply: inline-block;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+
+
+.more-info:link {
+  color: black;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:visited {
+  color:black;
+}
+
+.more-info:hover, .more-info:active {
+  text-decoration: none;
+}
+
+.color-box {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-color:black;
+  margin-right: 10px;
+  margin-bottom:30px;
+}
+
+.color-box:last-child {
+  margin-right: 0px;
+}
+
+/* .black {
+  background-color: black ;
+} */
+
+.blue {
+  background-color: #246ee2; 
+}
+
+.red {
+ background-color: #ec2f2f;
+}
+
+.yellow {
+  background-color: #f0bf1e;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: #885214;
+}
+
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.details-list li:bottom {
+  margin-bottom: 0px;
+}
+
+/* BUTTON */
+.add-cart {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor:pointer;
+  padding: 15px;
+  width: 100%;
+}
+  
+.add-cart:hover {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  border-top: 4px solid black;
+}
