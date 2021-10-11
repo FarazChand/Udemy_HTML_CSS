@@ -22,7 +22,7 @@ body {
 }
 
 .main-header {
-   background-color: #f77e7e;
+   background-color: #f7f7f7;
    /* padding: 20px;
    padding-left: 40px;
    padding-right: 40px; */
@@ -235,23 +235,6 @@ h2::after {
    top: -10px;
    right: -25px;
 }
-
-/* Resolving Conflicts */
-/* #copyright {
-   color: red;
-}
-
-.copyright {
-   color: blue;
-}
-
-.text {
-   color: yellow;
-}
-
-footer p {
-   color: green !important;
-} */
 
 /* FLOATS */
 
