@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: sans-serif;
+   line-height: 1;
+   font-weight: 400;
+   color: #fff;
+   font-size: 2rem;
+}
+
+.container {
+   background-color: cornflowerblue;
+
+   display: grid;
+   /* align-items: center; */
+}
+
+.grid {
+   max-width: 100rem;
+   margin: 0 auto;
+   background-color: chocolate;
+   /* display: grid;
+   gap: 9.6rem;
+   grid-template-columns: 1fr 1fr; */
+}
+
+.item-1 {
+   background-color: blueviolet;
+}
+
+.item-2 {
+   background-color: chartreuse;
+}
