@@ -28,7 +28,9 @@
   -Shades: #cf711f, #45260a
   -Accents:
   -Greys: 
-  #6f6f6f (lightest gray allowed with low tint)
+  #888
+  #767676 (lightest grey allowed on white)
+  #6f6f6f (lightest grey allowed with low tint)
   #555
   #333
   
@@ -96,6 +98,10 @@ body {
 
 .grid--4-cols {
    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+   grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
