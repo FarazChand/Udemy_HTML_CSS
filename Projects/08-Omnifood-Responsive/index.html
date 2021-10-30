@@ -12,6 +12,7 @@
       />
       <link rel="stylesheet" href="css/general.css" />
       <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/queries.css" />
 
       <script
          type="module"
@@ -25,7 +26,8 @@
       <title>Omnifood</title>
    </head>
    <body>
-      <header class="header">
+      <!-- <div class="wrapper"> -->
+      <header class="header nav-open">
          <a href="#">
             <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
          </a>
@@ -40,6 +42,11 @@
                </li>
             </ul>
          </nav>
+
+         <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+         </button>
       </header>
 
       <main>
@@ -814,19 +821,26 @@
                <ul class="footer-nav">
                   <li><a class="footer-link" href="#">About Omnifood</a></li>
                   <li><a class="footer-link" href="#">For Business</a></li>
-                  <li><a class="footer-link" href="#">Cooking Partners</a></li>
+                  <li>
+                     <a class="footer-link" href="#">Cooking Partners</a>
+                  </li>
                   <li><a class="footer-link" href="#">Careers</a></li>
                </ul>
             </nav>
             <nav class="nav-col">
                <p class="footer-heading">Resources</p>
                <ul class="footer-nav">
-                  <li><a class="footer-link" href="#">Recipe directory </a></li>
+                  <li>
+                     <a class="footer-link" href="#">Recipe directory </a>
+                  </li>
                   <li><a class="footer-link" href="#">Help center</a></li>
-                  <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                  <li>
+                     <a class="footer-link" href="#">Privacy & terms</a>
+                  </li>
                </ul>
             </nav>
          </div>
       </footer>
+      <!-- </div> -->
    </body>
 </html>
