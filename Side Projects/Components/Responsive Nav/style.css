@@ -1,0 +1,96 @@
+/*************** COLORS ***************/
+/* 
+#ffe3e3
+#f03e3e 
+
+*/
+
+/*************** GENERAL ***************/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: "Rubik", sans-serif;
+   font-weight: 400;
+   line-height: 1;
+   color: #333;
+}
+
+/*************** Header ***************/
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ffe3e3;
+   height: 9.6rem;
+   padding: 0 4.8rem;
+}
+
+.brand-logo {
+   height: 6rem;
+   width: 6rem;
+   color: #f03e3e;
+}
+
+.nav-links {
+   list-style: none;
+   display: flex;
+   gap: 4.8rem;
+   align-items: center;
+}
+
+.nav-link:link,
+.nav-link:visited {
+   text-decoration: none;
+   color: #222;
+   transition: all 0.3s;
+   font-size: 1.8rem;
+
+   display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:active {
+   text-decoration: none;
+   color: #f03e3e;
+}
+
+.btn:link,
+.btn:visited {
+   background-color: #f03e3e;
+   color: #fff;
+   border-radius: 10px;
+   padding: 1.2rem 2.4rem;
+}
+
+.btn:hover,
+.btn:active {
+   background-color: #c92a2a;
+}
+
+/*************** MOBILE ***************/
+
+.mobile-nav-btn {
+   border: none;
+   background: none;
+   cursor: pointer;
+
+   display: none;
+}
+
+.icon-nav-btn {
+   height: 3.2rem;
+   width: 3.2rem;
+   color: #222;
+}
+
+.icon-nav-btn[name="close-outline"] {
+   display: none;
+}
