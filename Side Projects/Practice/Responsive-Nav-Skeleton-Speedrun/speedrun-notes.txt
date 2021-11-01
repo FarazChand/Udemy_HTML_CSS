@@ -45,5 +45,8 @@ Guide:
 2.	a)Style the main elements
 	b)Style and Hide the button
 
-3. 	a)Style the open state of the mobile nav
+3. 	a)Style the open state of the mobile nav and hide it
 	b)Style the closed state of the mobile nav
+
+
+Test by adding the open-nav class to the header element in the dev tools
