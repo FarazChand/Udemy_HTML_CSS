@@ -1,0 +1,50 @@
+.header {
+   background-color: grey;
+   height: 9.6rem;
+   padding: 0 4.8rem;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo:link,
+.logo:visited {
+   font-size: 2.4rem;
+   color: #333;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.nav-list {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+   font-size: 1.6rem;
+   color: #333;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.mobile-btn {
+   border: none;
+   background: none;
+   cursor: pointer;
+
+   display: none;
+}
+
+.btn {
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.btn--close {
+   display: none;
+}
