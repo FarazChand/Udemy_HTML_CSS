@@ -1,0 +1,5 @@
+
+
+	- be careful using justify-items in a grid container if you are
+	  going to hide it's items eventually because it can cause the rest
+	  of the items to shrink.
