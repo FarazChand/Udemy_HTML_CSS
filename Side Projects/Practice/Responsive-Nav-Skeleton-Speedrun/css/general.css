@@ -9,10 +9,10 @@ html {
 }
 
 body {
-   color: #333;
    font-weight: 400;
    font-family: sans-serif;
    line-height: 1;
+   color: #333;
 
    overflow-x: hidden;
 }
