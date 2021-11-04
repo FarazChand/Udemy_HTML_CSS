@@ -1,6 +1,6 @@
-const btnNavEl = document.querySelector(".mobile-nav-btn");
+const btnEl = document.querySelector(".mobile-btn");
 const headerEl = document.querySelector(".header");
 
-btnNavEl.addEventListener("click", function () {
+btnEl.addEventListener("click", function () {
    headerEl.classList.toggle("nav-open");
 });

@@ -1,11 +1,11 @@
 @media (max-width: 60em) {
-   .mobile-nav-btn {
+   .mobile-btn {
       display: block;
       z-index: 1;
    }
 
    .main-nav {
-      background: rgba(255, 255, 255, 0.966);
+      background: rgba(255, 255, 255, 0.952);
       position: absolute;
       top: 0;
       left: 0;
@@ -13,15 +13,15 @@
       width: 100%;
 
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
 
       opacity: 0;
       pointer-events: none;
       visibility: hidden;
 
       transform: translateX(100%);
-      transition: all 0.6s ease-in;
+      transition: all 0.5s ease-in;
    }
 
    .nav-list {
@@ -37,10 +37,11 @@
       transform: translateX(0%);
    }
 
-   .nav-open .mobile-btn--open {
+   .nav-open .btn--open {
       display: none;
    }
-   .nav-open .mobile-btn--close {
+
+   .nav-open .btn--close {
       display: block;
    }
 }
