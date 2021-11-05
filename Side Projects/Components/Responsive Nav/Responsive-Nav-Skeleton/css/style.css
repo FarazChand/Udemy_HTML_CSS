@@ -8,11 +8,10 @@
    align-items: center;
 }
 
-.logo:link,
-.logo:visited {
+.logo {
+   text-decoration: none;
    color: #333;
    font-size: 2.4rem;
-   text-decoration: none;
    font-weight: 600;
 }
 
@@ -20,31 +19,28 @@
    list-style: none;
 
    display: flex;
-   align-items: center;
    gap: 4.8rem;
 }
 
-.nav-link:link,
-.nav-link:visited {
+.nav-link {
    text-decoration: none;
-   font-size: 1.8rem;
    color: #333;
+   font-size: 1.8rem;
    font-weight: 600;
 }
 
-/* Mobile */
-.mobile-nav-btn {
-   border: none;
+.mobile-btn {
    background: none;
+   border: none;
    cursor: pointer;
-
    display: none;
 }
 
 .btn {
    font-size: 1.6rem;
+   font-weight: 600;
 }
 
-.mobile-close {
+.btn--close {
    display: none;
 }

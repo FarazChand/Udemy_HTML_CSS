@@ -1,0 +1,2 @@
+This is just a base skeleton of a responsive nav that is mobile friendly. 
+All styles can be added or switched out very easily.
